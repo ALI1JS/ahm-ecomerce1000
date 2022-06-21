@@ -1,0 +1,194 @@
+.active2{
+    display:none;
+}
+.links{
+    margin: 50px 0;
+    text-align: center;
+    cursor: pointer;
+}
+.links .link1,.link2{
+    padding: 20px;
+    font-size: 30px;
+    font-weight: 900;
+    color: rgb(46, 167, 16);
+}
+
+.products,.products2{
+    transition: .9s ease;
+}
+.products2 h2{
+    font-size:40px;
+    color: black;
+    font-weight: bold;
+    text-transform: capitalize;
+    text-align: center;
+}
+/* .container .product .star{
+    font-size: 15px;
+    color:rgb(198, 174, 43);
+} */
+.products2 p.pra{
+    text-align: center;
+    font-size: 15px;
+    color: rgb(182, 188, 193);
+    text-transform: capitalize;
+}
+.banner22{
+    width: 100%;
+    background-image: url(/img/card2.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: left 20% top 0;
+    height:300px;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+.banner22 .banner222 h2{
+   color:rgb(41, 147, 24);
+   font-size: 40px;
+   text-transform: capitalize;
+   letter-spacing: 2px;
+}
+.banner22 .banner222 p{
+    color:rgb(41, 147, 24);
+   font-size: 25px;
+   text-transform: capitalize;
+   letter-spacing: 2px; 
+}
+.details{
+    width: 90%;
+    display: flex;
+    justify-content: space-between; 
+    flex-wrap: wrap;
+    height: 100vh;
+    margin: auto;
+    margin-top: 150px;
+}
+.details .image{
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.details .image .mainimg{
+    width: 90%;
+    background-color: aliceblue;
+    height: 30%;
+    margin: 20px auto;
+    box-shadow: 5px 5px 3px rgb(153, 160, 160);
+}
+.details .image .mainimg img{
+    width: 100%;
+    height: 100%;
+    padding: 10px;
+}
+.details .image .subimg{
+    width: 90%;
+    background-color: aliceblue;
+    margin: 20px auto;
+    box-shadow: 5px 5px 3px rgb(153, 160, 160);
+    padding: 20px;
+    display: flex;
+    flex-wrap: wrap;
+}
+.details .image .subimg img{
+    margin: 5px;
+    width: 20%;
+
+}
+.details .text{
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    margin-right: 100px;
+    margin-top: 50px;
+}
+.details .text h5{
+    color: rgb(148, 152, 155);
+    text-transform: capitalize;
+   
+}
+.details .text h4{
+    color: rgb(148, 152, 155);
+    font-size: 15px;
+    text-transform: capitalize;
+    margin-top: 20px;
+}
+.details .text h3{
+    color: rgb(14, 111, 22);
+    margin-top: 20px;
+    font-size: 30px;
+}
+.details .text input{
+    width: 25%;
+    outline: none;
+    border: 2px solid rgb(155, 160, 164);
+    border-radius: 7px;
+    margin-top: 15px;
+}
+.details .text .add input{
+    width: 15%;
+}
+.details .text .add button{
+    background-color: rgb(7, 144, 27);
+    color: rgb(240, 248, 242);
+    border:none;
+    border-radius: 3px;
+    width: 20%;
+    height: 30px;
+    text-transform: capitalize;
+}
+.details .text h2{
+    color: rgb(25, 161, 7);
+}
+.details .text p{
+    color: rgb(22, 25, 28);
+    line-height: 30px;
+    font-size: 20px;
+    text-transform: capitalize;
+}
+.talkus{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin: 150px 50px 50px 50px;
+    width: 100%;
+}
+.talkus .text{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+}
+.talkus .text h2{
+    color: black;
+    text-transform: capitalize;
+    line-height: 30px;
+}
+.talkus .text input{
+    width: 80%;
+    height: 30px;
+    outline: none;
+    border: 2px solid rgb(8, 173, 74);
+    margin-top: 20px;
+    border-radius: 5px;
+    text-align:start;
+    font-size: 20px;
+    color: rgb(158, 164, 170);
+    text-transform: capitalize;
+}
+.talkus .text textarea{
+    outline: none;
+    border: 2px solid rgb(13, 182, 42);
+    margin-top: 20px;
+    border-radius: 5px;
+    text-align:start;
+    font-size: 20px;
+    color: rgb(89, 92, 96); 
+    text-transform: capitalize;
+}
+
+
+.talkus .mapouter{
+    width: 40%;
+} 
