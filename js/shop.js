@@ -20,7 +20,7 @@ function changecontent (){
 
 /******************************************************** */
 /******************************************************** */
-  let mainimg=document.querySelector(".image .mainimg img");
+let mainimg=document.querySelector(".image .mainimg img");
 function transform(imgsrc){
     mainimg.src=imgsrc;
 }
